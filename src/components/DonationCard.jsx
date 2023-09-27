@@ -5,7 +5,7 @@ const DonationCard = ({donation}) => {
     const {id, category, title, image, category_background_color, background_color, text_color} = donation;
     return (
         <div className="flex">
-            <img className="w-40" src={image} alt="" />
+            <img className="w-48" src={image} alt="" />
             <div className="p-5  w-96" style={{background: background_color}}>
         <h2 className="w-fit px-2 rounded-sm mb-2" style={{background: category_background_color, color: text_color}}>{category}</h2>
         <h2>{title}</h2>
